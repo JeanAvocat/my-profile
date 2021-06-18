@@ -1,0 +1,72 @@
+body{
+	background-color:92D1C3;
+	font-family: 'Lora', serif;
+	font-size: 35px;
+	line-height: 2;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+h1, h2{
+	font-family: 'Roboto', sans-serif;
+	color:cd5d7d;
+}
+h1{
+	font-size: 70px;
+}
+h2{
+	font-size: 45px;
+}
+
+h3, p{
+	color:#693c5c
+}
+
+ul{
+	text-align:justify;
+}
+
+a{
+	text-decoration: none;
+	color: 92D1C3;
+}
+
+a:hover{color:cd5d7d;}
+
+p{
+	text-justify: center;
+}
+
+#photo {
+	border-radius: 50%;
+	width: 350px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+	border: 10px solid #cd5d7d;
+}
+
+.container{
+	width:700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.logo {
+	width: 400px;
