@@ -18,7 +18,7 @@ h2{
 	font-size: 45px;
 }
 
-h3, p{
+h3{
 	color:#693c5c
 }
 
@@ -35,6 +35,7 @@ a:hover{color:cd5d7d;}
 
 p{
 	text-justify: center;
+	color: rgb(0,0,10)
 }
 
 #photo {
